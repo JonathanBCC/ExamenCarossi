@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+}
+
+.cuadro {
+    margin: auto;
+    width: 400px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    overflow: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(247, 246, 246);
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: #0098cb;
+    width: 330px;
+    height: 50px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+input[type="button"]:hover {
+    background-color: #00b8eb;
+}

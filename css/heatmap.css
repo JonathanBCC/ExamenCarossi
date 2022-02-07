@@ -1,0 +1,39 @@
+#map {
+    height: 100%;
+}
+
+html,
+body {
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#floating-panel {
+    z-index: 5;
+    background-color: rgb(255, 255, 255);
+    border: 1px, solid, rgb(0, 0, 0);
+}
+
+#toggle-heatmap,
+#change-gradient,
+#change-radius,
+#change-opacity {
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgb(229, 227, 223);
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+}
+
+#toggle-heatmap:hover,
+#change-gradient:hover,
+#change-radius:hover,
+#change-opacity:hover {
+    color: #000000;
+    background-color: #d3d3d3;
+}

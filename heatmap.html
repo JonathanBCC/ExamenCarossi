@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mapa de calor</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="css/heatmap.css" />
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/heatmap.js"></script>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="mapa.html"><span ></span>Mapa de clientes</a></li>
+            <li><a href="tabla.html"><span ></span>Tabla</a></li>
+            <li><a href="heatmap.html"><span ></span>Mapa de calor</a></li>
+            <li><a href="login.html"><span ></span>Salir</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1>Mapa de calor</h1>
+    <div id="floating-panel">
+        <button id="toggle-heatmap">Mapa de calor</button>
+        <button id="change-gradient">Gradiente</button>
+        <button id="change-radius">Tamaño</button>
+        <button id="change-opacity">Opacidad</button>
+    </div>
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjyM0CyjiksJbMk4SVzZTz-Uzn5QusoRE&callback=initMap&libraries=visualization&v=weekly" async></script>
+</body>
+
+</html>
